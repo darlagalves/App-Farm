@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fazendinha</string>
+    <string name="title_activity_create_farms">CreateFarmsActivity</string>
+    <string name="title_activity_get_farms">GetFarmsActivity</string>
+    <string name="title_activity_update_farm">UpdateFarmActivity</string>
+    <string name="title_activity_search_by_name">SearchByNameActivity</string>
+    <string name="title_activity_search_by_id">SearchByIdActivity</string>
+</resources>

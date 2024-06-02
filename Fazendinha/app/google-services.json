@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "118367321426",
+    "project_id": "fazendinha-8f775",
+    "storage_bucket": "fazendinha-8f775.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118367321426:android:01b81fe284c589d7e58e8b",
+        "android_client_info": {
+          "package_name": "com.example.fazendinha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118367321426-bhrmbj3j29hs6ti1ie2iepuu464mvoue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKCsWeMCHOR5kjridqDLMbgEQBxexn2VU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118367321426-bhrmbj3j29hs6ti1ie2iepuu464mvoue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

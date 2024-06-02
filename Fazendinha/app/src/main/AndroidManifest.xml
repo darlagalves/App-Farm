@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Fazendinha"
+            tools:targetApi="31">
+        <activity
+                android:name=".ui.search.id.SearchByIdActivity"
+                android:exported="false"
+                android:label="@string/title_activity_search_by_id"
+                android:theme="@style/Theme.Fazendinha"/>
+        <activity
+                android:name=".ui.search.name.SearchByNameActivity"
+                android:exported="false"
+                android:label="@string/title_activity_search_by_name"
+                android:theme="@style/Theme.Fazendinha"/>
+        <activity
+                android:name=".ui.farm.UpdateFarmActivity"
+                android:exported="false"
+                android:label="@string/title_activity_update_farm"
+                android:theme="@style/Theme.Fazendinha"/>
+        <activity
+                android:name=".ui.farm.GetFarmsActivity"
+                android:exported="false"
+                android:label="@string/title_activity_get_farms"
+                android:theme="@style/Theme.Fazendinha"/>
+        <activity
+                android:name=".ui.farm.CreateFarmsActivity"
+                android:exported="false"
+                android:label="@string/title_activity_create_farms"
+                android:theme="@style/Theme.Fazendinha"/>
+        <activity
+                android:name=".ui.principal.MainActivity"
+                android:exported="true"
+                android:label="@string/app_name"
+                android:theme="@style/Theme.Fazendinha">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
